@@ -8,7 +8,7 @@ All rights go to Robin Wood, aka dijininja, all I did was simply build something
 
 ```text
 tooCeWL is a bash wrapper of CeWL by Robin Wood (https://github.com/digininja/CeWL)
-This tool is used to spider multiple websites at once
+This tool is used to spider multiple URLs at once
 
 Made with love by c0rgo (https://github.com/spacec0rgo)
 
@@ -17,7 +17,7 @@ Usage:
     
 Flags:
         -h, --help		print this help page
-        -p, --path              save results to path, default is user home
+        -p, --path              save results to path, default is ~/tooCeWL/results
         -k, --keep              keep the downloaded files
         -d <x>,--depth <x>	depth to spider to, default 2
         -m, --min_word_length   minimum word length, default 4
